@@ -18,10 +18,51 @@ Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 */
 
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #F2F1E8;
+}
+
+nav {
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 70px;
+  padding-top: 25px;
+}
+
+.logo {
+  background-image: url('images/optimized/bent-creek-logo.png');
+  background-size: cover;
+  background-position: center;
+  height: 45px;
+  width: 40px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -12px;
+}
+
+nav a {
+  color: #2B2F26;
+  font-size: 19px;
+  font-family: sans-serif;
+}
+
+.middle {
+  margin: 0 60px;
+}
+
+a:hover {
+  color: #967343;
+}
+
+a:active {
+  color: #968772;
 }
