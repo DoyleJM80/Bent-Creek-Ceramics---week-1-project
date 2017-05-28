@@ -70,6 +70,7 @@ a:hover {
   color: #968772;
 }
 
+/*main*/
 /*top-section*/
 
 #top-section {
@@ -125,8 +126,6 @@ a:hover {
   background-size: cover;
   margin-bottom: 15px;
 }
-
-
 
 .product-4 {
   background-image: url('./images/optimized/product-4.jpg');
@@ -193,7 +192,12 @@ footer {
   padding-left: 30px;
 }
 
-/*about index.html*/
+/*about*/
+/*top section*/
+
+.about-body {
+  font-family: 'Merriweather', serif;
+}
 
 .birdhouse {
   background-image: url('./images/optimized/birdhouse.jpg');
@@ -209,9 +213,8 @@ footer {
   padding-left: 208px;
   padding-right: 220px;
   padding-top: 73px;
-  font-size: 23px;
+  font-size: 23.5px;
   line-height: 40px;
-  font-family: 'Merriweather', serif;
   font-weight: 300;
 }
 
@@ -221,12 +224,14 @@ footer {
 }
 
 blockquote {
-  font-family: 'Merriweather', serif;
   font-weight: 100;
+  font-style: italic;
+  color: rgb(72, 66, 53);
 }
 
+/*history*/
+
 article h2 {
-  font-family: 'Merriweather', serif;
   font-size: 35px;
   padding-left: 208px;
   font-weight: 300;
@@ -237,15 +242,79 @@ article h2 {
   padding-right: 220px;
   font-size: 23px;
   line-height: 40px;
-  font-family: 'Merriweather', serif;
   font-weight: 300;
 }
+
+/*room-to-grow*/
 
 .room-to-grow {
   background-image: url('./images/optimized/background-3.jpg');
   width: 100%;
-  height: 320px;
-  background-position: right;
+  height: 376px;
+  background-position: 0% 23%;
   background-size: cover;
   background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.room-to-grow span {
+  color: white;
+  font-size: 80px;
+}
+
+/*facilities*/
+
+.facilities p {
+  display: inline-block;
+  margin-left: 210px;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 300;
+  width: 59%;
+  margin-top: -10px;
+}
+
+.article-1 a {
+  color: #968772;
+}
+
+.article-1 a:hover {
+  color: #967343;
+}
+
+.background-1 {
+  background-image: url('./images/optimized/background-1.jpg');
+  height: 120px;
+  width: 160px;
+  background-size: cover;
+  background-position: center;
+  float: right;
+  margin-top: 115px;
+  margin-right: 205px;
+}
+
+.aside-1 {
+  float: right;
+  height: 80px;
+  width: 170px;
+  margin-right: 195px;
+  margin-top: -110px;
+}
+
+.aside-1 span {
+  font-size: 12.5px;
+  line-height: 20px;
+}
+
+#facilities {
+  margin-top: 40px;
+}
+
+/*table*/
+
+.table-title {
+  font-size: 35px;
+  padding-left: 208px;
+  font-weight: 300;
 }
