@@ -7,15 +7,41 @@
     <link rel="stylesheet" href="../styles.css">
     <title>Bent Creek Ceramics</title>
   </head>
-  <body>
+  <body class="background-2">
     <header>
       <nav>
         <div class="logo"></div>
-        <a href="../index.html">HOME</a>
+        <a href="../index.html" class="first">HOME</a>
         <a href="../about/index.html" class="middle">ABOUT</a>
         <a href="./index.html" class="active">NEWSLETTER</a>
       </nav>
     </header>
+    <main class="newsletter-form">
+      <form class="newsletter" action="index.html" method="post">
+        <h3>Sign Up for Our Weekly Newsletter</h3>
+        <h4>Stay up to date with events, activities, news and specials.</h4>
+        <input id="nameInput" type="text" name="" value="Name">
+        <input id="emailInput" type="email" name="" value="Email">
+        <input id="signupButton" type="Button" name="Submit" value="Submit">
+      </form>
+
+    </main>
+    <script type="text/javascript">
+      var nameInput = document.getElementById('nameInput');
+      var emailInput = document.getElementById('emailInput');
+      var signupButton = document.getElementById('signupButton');
+      signupButton.addEventListener('click', function(e) {
+        var nameVal = nameInput.value;
+        var emailVal = emailInput.value;
+        if (nameVal && emailVal) {
+          alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+          nameInput.value = "";
+          emailInput.value = "";
+        } else {
+          alert('We would love for you to sign up, please provide both your name and email address.');
+        }
+      });
+    </script>
 
   </body>
 </html>

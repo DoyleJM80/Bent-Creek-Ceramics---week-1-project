@@ -35,7 +35,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
   height: 70px;
   padding-top: 25px;
 }
@@ -56,6 +56,10 @@ nav a {
   font-size: 20px;
   font-family: sans-serif;
   font-weight: 300;
+}
+
+.first {
+  margin-left: 455px;
 }
 
 .middle {
@@ -188,7 +192,7 @@ footer {
   color: rgb(196, 200, 187);
   height: 100px;
   font-size: 27px;
-  padding-top: 40px;
+  padding-top: 35px;
   padding-left: 30px;
 }
 
@@ -201,17 +205,17 @@ footer {
 
 .birdhouse {
   background-image: url('./images/optimized/birdhouse.jpg');
-  height: 120px;
-  width: 160px;
+  height: 140px;
+  width: 180px;
   background-size: cover;
   float: left;
   margin-right: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .intro {
   padding-left: 208px;
-  padding-right: 220px;
+  padding-right: 200px;
   padding-top: 73px;
   font-size: 23.5px;
   line-height: 40px;
@@ -227,6 +231,8 @@ blockquote {
   font-weight: 100;
   font-style: italic;
   color: rgb(72, 66, 53);
+  font-size: 23.5px;
+  margin-bottom: 60px;
 }
 
 /*history*/
@@ -243,6 +249,8 @@ article h2 {
   font-size: 23px;
   line-height: 40px;
   font-weight: 300;
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
 
 /*room-to-grow*/
@@ -285,10 +293,11 @@ article h2 {
 
 .background-1 {
   background-image: url('./images/optimized/background-1.jpg');
-  height: 120px;
+  height: 130px;
   width: 160px;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   float: right;
   margin-top: 115px;
   margin-right: 205px;
@@ -308,7 +317,7 @@ article h2 {
 }
 
 #facilities {
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 /*table*/
@@ -339,4 +348,73 @@ td {
 
 .alt-color {
   background-color: rgb(243, 234, 221);
+}
+
+/*newsletter*/
+
+.background-2 {
+  background-image: url('./images/optimized/background-2.jpg');
+  background-size: cover;
+  height: 615px;
+  min-height: 100vh;
+  font-family: 'Merriweather', serif;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+form {
+  background-color: rgb(255, 255, 255);
+  height: 380px;
+  width: 48%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+form h4 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: -10px;
+}
+
+#nameInput , #emailInput {
+  border: none;
+  border-bottom: solid;
+  border-color: #968772;
+  border-width: 2px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 25px;
+  color: rgb(117, 117, 117);
+  font-size: 22px;
+}
+
+#signupButton {
+  display: inline-block;
+  height: 55px;
+  width: 128px;
+  margin: 0 auto;
+  font-size: 22px;
+  background-color: #968772;
+  color: #F2F1E8;
+  border: none;
+  margin-top: 15px;
+}
+
+#signupButton:hover {
+  background-color: #967343;
+  color: #FFFFFF;
 }
