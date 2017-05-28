@@ -318,3 +318,25 @@ article h2 {
   padding-left: 208px;
   font-weight: 300;
 }
+
+table {
+  border-collapse: collapse;
+  margin-left: 208px;
+  margin-bottom: 70px;
+}
+
+td {
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px 20px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.table-top-row {
+  text-align: center;
+}
+
+.alt-color {
+  background-color: rgb(243, 234, 221);
+}
