@@ -66,7 +66,7 @@ a:hover {
   color: #967343;
 }
 
-a:active {
+.active {
   color: #968772;
 }
 
@@ -191,4 +191,61 @@ footer {
   font-size: 27px;
   padding-top: 40px;
   padding-left: 30px;
+}
+
+/*about index.html*/
+
+.birdhouse {
+  background-image: url('./images/optimized/birdhouse.jpg');
+  height: 120px;
+  width: 160px;
+  background-size: cover;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.intro {
+  padding-left: 208px;
+  padding-right: 220px;
+  padding-top: 73px;
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+
+.blockquote-wrapper {
+  border-left: solid;
+  border-color: rgb(152, 135, 115);
+}
+
+blockquote {
+  font-family: 'Merriweather', serif;
+  font-weight: 100;
+}
+
+article h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 35px;
+  padding-left: 208px;
+  font-weight: 300;
+}
+
+.history p {
+  padding-left: 208px;
+  padding-right: 220px;
+  font-size: 23px;
+  line-height: 40px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+}
+
+.room-to-grow {
+  background-image: url('./images/optimized/background-3.jpg');
+  width: 100%;
+  height: 320px;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
