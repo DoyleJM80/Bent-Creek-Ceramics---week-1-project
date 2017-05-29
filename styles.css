@@ -368,7 +368,7 @@ td {
 }
 
 form {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 380px;
   width: 48%;
   margin: 0 auto;
